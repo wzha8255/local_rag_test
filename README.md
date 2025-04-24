@@ -16,7 +16,12 @@
 pip install -r requirements.txt
 ```
 
-2. run the applicaiton
+2. download the required embedding model and language model
+```bash
+python download_models.py
+```
+
+3. run the applicaiton
 ```bash
 streamlit run app.py
 ```
